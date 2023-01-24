@@ -1,0 +1,15 @@
+tasks:
+  build:
+    command:
+    - vite
+    - build
+    platform: node
+  start:
+    command: vite
+    platform: node
+  watch-all:
+    command: 'noop'
+    deps:
+      - "@mcpr/lib1:start"
+      - "@mcpr/lib2:start"
+      - ~:start

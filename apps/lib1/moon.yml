@@ -1,0 +1,10 @@
+tasks:
+  build:
+    command:
+    - vite
+    - build
+    platform: node
+  start:
+    command: vite
+    local: true
+    platform: node

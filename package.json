@@ -1,0 +1,17 @@
+{
+  "name": "moon-child-process-repo",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "moon": "$(yarn bin moon)"
+  },
+  "dependencies": {
+    "@moonrepo/cli": "^0.22.0"
+  },
+  "packageManager": "yarn@3.3.1",
+  "engines": {
+    "node": "18.12.0"
+  }
+}
